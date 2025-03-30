@@ -172,3 +172,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+*.pyc
+*.swp
+.DS_Store # File for macOS
+
+# Custom rules for Juragan Burger
+--pycache__/
+venv/
+.env
+config.ini
+*.log
